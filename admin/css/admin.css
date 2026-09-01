@@ -1,0 +1,252 @@
+.nc-mock {
+	--nc-ink: #00073f;
+	--nc-accent: #008aff;
+	--nc-bg: #fafbfe;
+	--nc-card: #ffffff;
+	--nc-line: #e1e5ea;
+	--nc-muted: #5b6475;
+	max-width: 880px;
+	margin: 20px 20px 40px 0;
+	color: var(--nc-ink);
+}
+
+.nc-mock h1 {
+	margin: 0 0 6px;
+	font-size: 28px;
+	font-weight: 650;
+	letter-spacing: -0.02em;
+}
+
+.nc-mock h2 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 650;
+}
+
+.nc-mock__header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 16px;
+	margin-bottom: 24px;
+}
+
+.nc-mock__lede {
+	margin: 0;
+	max-width: 52ch;
+	color: var(--nc-muted);
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.nc-mock__ghost {
+	display: inline-flex;
+	align-items: center;
+	height: 36px;
+	padding: 0 14px;
+	border: 1px solid var(--nc-line);
+	border-radius: 10px;
+	background: #fff;
+	color: var(--nc-ink);
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.nc-mock__ghost:hover {
+	border-color: var(--nc-accent);
+	color: var(--nc-accent);
+}
+
+.nc-mock__stats {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.nc-mock__stat {
+	background: var(--nc-card);
+	border: 1px solid var(--nc-line);
+	border-radius: 12px;
+	padding: 16px 18px;
+}
+
+.nc-mock__stat-value {
+	display: block;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	line-height: 1.1;
+}
+
+.nc-mock__stat-label {
+	display: block;
+	margin-top: 6px;
+	color: var(--nc-muted);
+	font-size: 12px;
+}
+
+.nc-mock__stat--target .nc-mock__stat-value {
+	color: var(--nc-accent);
+}
+
+.nc-mock__progress {
+	margin-bottom: 24px;
+}
+
+.nc-mock__progress-track {
+	height: 8px;
+	border-radius: 999px;
+	background: #e8ecf2;
+	overflow: hidden;
+}
+
+.nc-mock__progress-fill {
+	height: 100%;
+	background: var(--nc-accent);
+	border-radius: inherit;
+	transition: width 0.25s ease;
+}
+
+.nc-mock__progress-caption,
+.nc-mock__run-caption,
+.nc-mock__hint,
+.nc-mock__cache-meta,
+.nc-mock__legal {
+	color: var(--nc-muted);
+	font-size: 13px;
+	line-height: 1.45;
+}
+
+.nc-mock__progress-caption {
+	margin: 8px 0 0;
+}
+
+.nc-mock__card {
+	background: var(--nc-card);
+	border: 1px solid var(--nc-line);
+	border-radius: 14px;
+	padding: 20px 22px;
+	margin-bottom: 16px;
+}
+
+.nc-mock__card-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 10px;
+}
+
+.nc-mock__sources {
+	list-style: none;
+	margin: 12px 0 0;
+	padding: 0;
+}
+
+.nc-mock__sources li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 10px 0;
+	border-top: 1px solid var(--nc-line);
+}
+
+.nc-mock__sources li:first-child {
+	border-top: 0;
+}
+
+.nc-mock__sources label {
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+	font-size: 14px;
+}
+
+.nc-mock__source-name {
+	font-weight: 650;
+}
+
+.nc-mock__source-note {
+	color: var(--nc-muted);
+	font-size: 12px;
+}
+
+.nc-mock__source-count {
+	color: var(--nc-muted);
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+.nc-mock__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 12px 0 8px;
+}
+
+.nc-mock .button-primary {
+	background: var(--nc-accent);
+	border-color: var(--nc-accent);
+}
+
+.nc-mock .nc-mock__stop {
+	color: #b42318;
+	border-color: #f0c4c0;
+}
+
+.nc-mock__run {
+	margin-top: 14px;
+}
+
+.nc-mock__progress-track--run {
+	height: 6px;
+}
+
+.nc-mock__log {
+	margin: 12px 0 0;
+	padding: 0 0 0 18px;
+	max-height: 280px;
+	overflow: auto;
+	font-size: 13px;
+	line-height: 1.45;
+}
+
+.nc-mock__log li {
+	margin: 0 0 6px;
+}
+
+.nc-mock__log li.is-error {
+	color: #b42318;
+}
+
+.nc-mock__card--danger .button {
+	color: #b42318;
+	border-color: #f0c4c0;
+}
+
+.nc-mock__legal {
+	margin: 8px 0 0;
+}
+
+.nc-mock.is-busy .button[data-action] {
+	pointer-events: none;
+	opacity: 0.65;
+}
+
+.nc-mock.is-busy .button[data-action="stop"] {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+@media (max-width: 782px) {
+	.nc-mock__stats {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.nc-mock__header {
+		flex-direction: column;
+	}
+}

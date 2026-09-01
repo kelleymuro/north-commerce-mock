@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "ayocin-atmos",
+      "title": "ATMOS",
+      "handle": "atmos",
+      "body_html": "<p>Bringing natural light and fresh air inside your home. ATMOS combines advanced light therapy and air purification in one sculptural piece: dimmable mood lighting, a daylight spectrum that helps align your body clock, red-light therapy, and a HEPA system that captures 99.95% of airborne pollutants.</p><p>Made from high-quality sustainable wood, tempered satin glass, and a brushed metal mesh. Choose from three carefully crafted editions — Walnut / Copper, Oak / Nickel, and Ebony / Bronze.</p>",
+      "vendor": "AYOCIN",
+      "product_type": "Lighting",
+      "tags": ["Wellness", "Lighting", "Air Purification", "Limited"],
+      "options": [
+        {
+          "name": "Finish",
+          "values": ["Walnut / Copper", "Oak / Nickel", "Ebony / Bronze"]
+        }
+      ],
+      "variants": [
+        {
+          "id": "ayocin-atmos-walnut",
+          "title": "Walnut / Copper",
+          "option1": "Walnut / Copper",
+          "sku": "ATMOS-WALNUT-COPPER",
+          "price": "2990.00",
+          "grams": 12000,
+          "available": true,
+          "requires_shipping": true,
+          "featured_image": {
+            "src": "https://ayocin-cms.onrender.com/uploads/lamp01_d1eadb19c4.png"
+          }
+        },
+        {
+          "id": "ayocin-atmos-oak",
+          "title": "Oak / Nickel",
+          "option1": "Oak / Nickel",
+          "sku": "ATMOS-OAK-NICKEL",
+          "price": "2990.00",
+          "grams": 12000,
+          "available": true,
+          "requires_shipping": true,
+          "featured_image": {
+            "src": "https://ayocin-cms.onrender.com/uploads/lamp02_d4af67df99.png"
+          }
+        },
+        {
+          "id": "ayocin-atmos-ebony",
+          "title": "Ebony / Bronze",
+          "option1": "Ebony / Bronze",
+          "sku": "ATMOS-EBONY-BRONZE",
+          "price": "2990.00",
+          "grams": 12000,
+          "available": true,
+          "requires_shipping": true,
+          "featured_image": {
+            "src": "https://ayocin-cms.onrender.com/uploads/lamp03_430f761f72.png"
+          }
+        }
+      ],
+      "images": [
+        { "src": "https://ayocin-cms.onrender.com/uploads/lamp01_d1eadb19c4.png", "variant_ids": ["ayocin-atmos-walnut"] },
+        { "src": "https://ayocin-cms.onrender.com/uploads/lamp02_d4af67df99.png", "variant_ids": ["ayocin-atmos-oak"] },
+        { "src": "https://ayocin-cms.onrender.com/uploads/lamp03_430f761f72.png", "variant_ids": ["ayocin-atmos-ebony"] },
+        { "src": "https://ayocin-cms.onrender.com/uploads/lamp04_4f43001e69.png", "variant_ids": [] },
+        { "src": "https://ayocin-cms.onrender.com/uploads/intro_lamp_on_df4cfa438a.png", "variant_ids": [] },
+        { "src": "https://ayocin-cms.onrender.com/uploads/intro_second_image_247f52f377.jpg", "variant_ids": [] }
+      ]
+    }
+  ]
+}
